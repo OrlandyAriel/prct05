@@ -8,6 +8,8 @@ class Test_Fraccionario < Test::Unit::TestCase
         @fraccion2 = Fraccionario.new(4, 9)
     end
   
-   
+    def test_type_check
+        assert_raise(TypeError){Fraccionario.new(5,0)}
+    end
   
 end

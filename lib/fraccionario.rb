@@ -53,9 +53,9 @@ class Fraccionario
   
 end
 
-#=begin
+=begin
 a = Fraccionario.new(3,2)
 b = Fraccionario.new(7,6)
 a=a/b
 puts a.m_numerador.to_s .+ "\n--\n".+ a.m_denominador.to_s
-#=end
+=end
